@@ -47,6 +47,32 @@ body {
   body {
     background-color: red;
   }
+
+  main {
+    display: grid;
+    grid-template: repeat(8, 1fr);
+  }
+
+  .profile-daniel {
+    grid-column: span 8;
+  }
+
+  .profile-jonathan {
+    grid-column: span 4;
+  }
+
+  .profile-jeanette {
+    grid-column: span 4;
+  }
+
+  .profile-patrick {
+    grid-column: span 8;
+}
+
+.profile-kira {
+    grid-column: span 8;
+}
+
   .profiles-container {
     display: flex;
     justify-content: center;
