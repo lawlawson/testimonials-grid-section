@@ -67,11 +67,11 @@ body {
 
   .profile-patrick {
     grid-column: span 8;
-}
+  }
 
-.profile-kira {
+  .profile-kira {
     grid-column: span 8;
-}
+  }
 
   .profiles-container {
     display: flex;
@@ -85,6 +85,32 @@ body {
   body {
     background-color: green;
   }
+
+  main {
+    display: grid;
+    grid-template: repeat(12, 1fr);
+  }
+
+  .profile-daniel {
+    grid-column: span 6;
+  }
+
+  .profile-jonathan {
+    grid-column: span 3;
+  }
+
+  .profile-jeanette {
+    grid-column: span 3;
+  }
+
+  .profile-patrick {
+    grid-column: span 6;
+  }
+
+  .profile-kira {
+    grid-column: span 3;
+  }
+
   .profiles-container {
     display: flex;
     justify-content: center;
