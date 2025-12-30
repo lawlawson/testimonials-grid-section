@@ -88,27 +88,30 @@ body {
 
   main {
     display: grid;
-    grid-template: repeat(12, 1fr);
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas:
+      'daniel daniel daniel daniel daniel daniel jonathan jonathan jonathan kira kira kira'
+      'jeanette jeanette jeanette patrick patrick patrick patrick patrick patrick kira kira kira';
   }
 
   .profile-daniel {
-    grid-column: span 6;
+    grid-area: daniel;
   }
 
   .profile-jonathan {
-    grid-column: span 3;
+    grid-area: jonathan;
   }
 
   .profile-jeanette {
-    grid-column: span 3;
+    grid-area: jeanette;
   }
 
   .profile-patrick {
-    grid-column: span 6;
+    grid-area: patrick;
   }
 
   .profile-kira {
-    grid-column: span 3;
+    grid-area: kira;
   }
 
   .profiles-container {
