@@ -103,6 +103,14 @@ main {
   letter-spacing: 0px;
 }
 
+.blurb-work-dark {
+  font-size: 13px;
+  color: hsl(224, 10%, 45%);
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  line-height: 140%;
+  letter-spacing: 0px;
+}
+
 @media (min-width: 768px) {
   main {
     display: grid;
